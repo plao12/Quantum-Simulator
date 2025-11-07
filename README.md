@@ -75,7 +75,7 @@ Linux
    ```
 4. Clone and instantiate the project:
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/plao12/Quantum-Simulator
    cd Quantum-Simulator
    julia --project=. -e 'using Pkg; Pkg.instantiate(); Pkg.precompile()'
    ```
@@ -93,7 +93,7 @@ Windows
    - If using WSL2: follow NVIDIA and Microsoft instructions to enable CUDA in WSL2.
 3. Clone and instantiate the project (PowerShell or Git Bash):
    ```powershell
-   git clone <repo-url>
+   git clone https://github.com/plao12/Quantum-Simulator
    cd Quantum-Simulator
    julia --project=. -e 'using Pkg; Pkg.instantiate(); Pkg.precompile()'
    ```
